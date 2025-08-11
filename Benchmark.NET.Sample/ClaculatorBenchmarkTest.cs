@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Benchmark.NET.Sample
 {
+//Benchmark test
     [MinColumn, MaxColumn]
     [MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
     public class ClaculatorBenchmarkTest
